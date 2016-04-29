@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir>
+
+# Test mount
+
+echo "Testing Mount"
+
+mkdir /tmp/volume
+
+mount -t glusterfs 127.0.0.1/volume /tmp/volume

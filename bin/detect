@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# bin/detect <build-dir>
+
+if [ -f $1/Aptfile ]; then
+  echo "Dependecies file found" && exit 0
+else
+  echo "No dependecies file found" && exit 1
+fi
