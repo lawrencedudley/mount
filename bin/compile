@@ -7,4 +7,4 @@ echo "Testing Mount"
 
 mkdir /tmp/volume
 
-mount -t glusterfs 127.0.0.1/volume /tmp/volume
+sudo mount -t glusterfs 127.0.0.1/volume /tmp/volume
